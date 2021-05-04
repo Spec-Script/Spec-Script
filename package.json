@@ -1,0 +1,22 @@
+{
+  "name": "@spectrellc/specscript-complier",
+  "version": "0.1.2",
+  "main": "main.js",
+  "scripts": {
+    "test": "crossenv node ./complier.js MAINFILE=main.spec"
+  },
+  "bin": {
+    "compile": "complier.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "crossenv": "0.0.2-security",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

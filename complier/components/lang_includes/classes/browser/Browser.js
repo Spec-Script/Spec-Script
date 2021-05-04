@@ -1,0 +1,1 @@
+class Browser {static writeHTML(string) {document.write(string)}; static newElement(type,innerHTML,parent) {document.getElementById(parent).innerHTML+=`<${type}>${innerHTML}</${type}>`}; static writeToElement(HTML, elementId) {document.getElementById(elementId).innerHTML+=HTML;}; };

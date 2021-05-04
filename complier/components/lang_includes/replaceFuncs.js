@@ -1,0 +1,1 @@
+function log(msg) {console.log(msg)};function errorLog(msg) {console.error(msg)};function toNumber(string) {return parseInt(string)};function getElementById(id) {return document.getElementById(id)};function getElementsByClassName(elClass) {return document.getElementsByClassName(elClass)};
