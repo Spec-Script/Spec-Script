@@ -6,7 +6,7 @@
     "test": "crossenv node ./complier.js MAINFILE=main.spec"
   },
   "bin": {
-    "compile": "complier.js"
+    "specscript": "main.js"
   },
   "author": "",
   "license": "ISC",
