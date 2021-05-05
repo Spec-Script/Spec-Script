@@ -1,3 +1,5 @@
+// Example SpecScript code
+
 message="hi"
 define method hilol() {
     log('Hiii')
